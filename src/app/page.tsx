@@ -1,12 +1,13 @@
-import { BenefitsSection } from "@/components/benefits-section"
-import { Hero } from "@/components/hero"
-import Image from "next/image"
+import { AdvantagesSection } from "@/components/sections/advantages-section"
+import { BenefitsSection } from "@/components/sections/benefits-section"
+import { Hero } from "@/components/sections/hero"
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <BenefitsSection />
+      <AdvantagesSection />
     </main>
   )
 }

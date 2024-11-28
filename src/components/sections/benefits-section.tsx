@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import { ContentBoxIcon } from "./content-box-icon"
+import { ContentBoxIcon } from "../content-box-icon"
 
 import barberShopImg from "@/assets/barber-shop.jpg"
 import iconOpenAccount from "@/assets/icon-abertura-contas.svg"
