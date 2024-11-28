@@ -16,6 +16,9 @@ export default {
         "rhiza-green-300": "#86E6A6",
         "rhiza-green-500": "#1EC85F",
         "rhiza-green-900": "#0A3115",
+
+        "rhiza-blue-500": "#1E3A8A",
+        "rhiza-blue-900": "#110E4F",
       },
     },
   },
