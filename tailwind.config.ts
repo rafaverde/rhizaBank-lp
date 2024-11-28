@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 export default {
   content: [
@@ -8,11 +8,16 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "bg-hero-image": "url('../assets/hero-background.jpg')",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "rhiza-green-100": "#E0F7E8",
+        "rhiza-green-300": "#86E6A6",
+        "rhiza-green-500": "#1EC85F",
+        "rhiza-green-900": "#0A3115",
       },
     },
   },
   plugins: [],
-} satisfies Config;
+} satisfies Config
