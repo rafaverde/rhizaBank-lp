@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export function Header() {
   return (
-    <header className="flex items-center bg-rhiza-green-100 w-full h-20">
+    <header className="top-0 z-50 sticky flex items-center bg-rhiza-green-100 w-full h-20">
       <h1 className="sr-only">
         Rhiza Bank - Um banco que redefine a economia compartilhada.
       </h1>
