@@ -6,12 +6,19 @@ import Link from "next/link"
 export function Header() {
   return (
     <header className="flex items-center bg-rhiza-green-100 w-full h-20">
+      <h1 className="sr-only">
+        Rhiza Bank - Um banco que redefine a economia compartilhada.
+      </h1>
       <div className="flex justify-between lg:m-auto px-4 xl:p-0 w-full max-w-[1170px]">
         <Link href="/">
           <Image src={rhizaLogo} alt="Rhiza Bank Logo" width={130} />
         </Link>
 
-        <nav className="lg:flex flex-1 items-center hidden ml-20">
+        <nav
+          aria-label="Menu de Navegação"
+          id="header_menu"
+          className="lg:flex flex-1 items-center hidden ml-20"
+        >
           <ul className="flex items-center gap-7">
             <MenuItem label="Benefícios" to="#beneficios" />
             <MenuItem
