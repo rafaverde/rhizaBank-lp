@@ -5,7 +5,7 @@ import Link from "next/link"
 export function AdvantagesSection() {
   return (
     <section className="bg-rhiza-green-500">
-      <div className="flex md:flex md:flex-row flex-col lg:justify-between md:items-end gap-5 lg:m-auto px-4 xl:px-0 py-7 md:pt-14 md:pb-0 w-full lg:max-w-[1170]">
+      <div className="flex md:flex md:flex-row flex-col lg:justify-between md:items-end gap-5 lg:m-auto px-4 xl:px-0 py-7 md:pt-14 md:pb-0 w-full lg:w-max-[1170]">
         <div className="md:w-max lg:w-full">
           <Image src={advantagesImg} alt="Ilustração" width={387} />
         </div>
