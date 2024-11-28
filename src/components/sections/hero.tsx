@@ -8,7 +8,7 @@ import Link from "next/link"
 export function Hero() {
   return (
     <section className="bg-hero-image bg-cover bg-no-repeat bg-center w-full lg:h-[600]">
-      <div className="flex md:flex md:flex-row flex-col-reverse lg:justify-between items-center md:items-center lg:m-auto px-4 xl:px-0 py-7 md:py-14 w-full lg:w-max-[1170]">
+      <div className="flex md:flex md:flex-row flex-col-reverse lg:justify-between items-center md:items-center lg:m-auto px-4 xl:px-0 py-7 md:py-14 w-full lg:max-w-[1170px]">
         <div
           id="hero-infos"
           className="flex flex-col gap-7 mb-4 md:w-[50%] text-white"

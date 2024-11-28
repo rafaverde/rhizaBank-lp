@@ -14,7 +14,7 @@ import iconConsortium from "@/assets/icon-consorcios.svg"
 export function BenefitsSection() {
   return (
     <section id="beneficios">
-      <div className="flex md:flex md:flex-row flex-col lg:justify-between items-center md:items-start lg:items-center gap-5 lg:m-auto px-4 xl:px-0 py-7 md:py-14 w-full lg:w-max-[1170]">
+      <div className="flex md:flex md:flex-row flex-col lg:justify-between items-center md:items-start lg:items-center gap-5 lg:m-auto px-4 xl:px-0 py-7 md:py-14 w-full lg:max-w-[1170px]">
         <div className="md:w-full lg:w-[40%]">
           <Image
             src={barberShopImg}
