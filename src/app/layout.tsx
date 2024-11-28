@@ -4,6 +4,7 @@ import { Nunito_Sans } from "next/font/google"
 
 import { Header } from "@/components/header"
 import "./globals.css"
+import { Footer } from "@/components/footer"
 
 const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={`${nunitoSans.className} antialiased`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
