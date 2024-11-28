@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "bg-hero-image": "url('../assets/hero-background.jpg')",
+        "hero-image": "url('../assets/hero-background.jpg')",
       },
       colors: {
         "rhiza-green-100": "#E0F7E8",

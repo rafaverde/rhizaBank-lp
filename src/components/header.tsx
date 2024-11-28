@@ -6,7 +6,7 @@ import Link from "next/link"
 export function Header() {
   return (
     <header className="flex items-center bg-rhiza-green-100 w-full h-20">
-      <div className="flex m-auto px-4 w-full max-w-[360] lg:max-w-[1170]">
+      <div className="flex lg:m-auto px-4 xl:p-0 w-full max-w-[360] lg:max-w-[1170]">
         <Image src={rhizaLogo} alt="Rhiza Bank Logo" width={130} />
         <nav className="lg:flex flex-1 items-center hidden ml-20">
           <ul className="flex items-center gap-7">
