@@ -10,7 +10,7 @@ export function Header() {
         <Image src={rhizaLogo} alt="Rhiza Bank Logo" width={130} />
         <nav className="lg:flex flex-1 items-center hidden ml-20">
           <ul className="flex items-center gap-7">
-            <MenuItem label="Benefícios" to="#benficios" />
+            <MenuItem label="Benefícios" to="#beneficios" />
             <MenuItem
               label="Clube de Descontos"
               to="https://clubecerto.com.br/hotsite/?utm_cc=acessodireto&ent=rhizaedutech"
