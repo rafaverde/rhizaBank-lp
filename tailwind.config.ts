@@ -20,6 +20,9 @@ export default {
         "rhiza-blue-500": "#1E3A8A",
         "rhiza-blue-900": "#110E4F",
       },
+      minHeight: {
+        "screen-content": "calc(100vh - 160px)",
+      },
     },
   },
   plugins: [],

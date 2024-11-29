@@ -6,7 +6,7 @@ import Link from "next/link"
 export function Footer() {
   return (
     <footer className="bg-rhiza-blue-900">
-      <div className="flex md:flex-row flex-col justify-between items-center gap-3 m-auto px-4 py-7 w-full lg:max-w-[1170px]">
+      <div className="flex md:flex-row flex-col justify-center lg:justify-between items-center gap-1 m-auto px-4 lg:px-0 w-full lg:max-w-[1170px] h-20">
         <span className="text-rhiza-green-100 text-xs">
           Rhiza Bank • Todos os direitos reservados © 2024
         </span>

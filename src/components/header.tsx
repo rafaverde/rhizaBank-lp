@@ -18,7 +18,7 @@ export function Header() {
       <h1 id="top" className="sr-only">
         Rhiza Bank - Um banco que redefine a economia compartilhada.
       </h1>
-      <div className="flex justify-between lg:m-auto px-4 xl:p-0 w-full max-w-[1170px]">
+      <div className="flex justify-between items-center lg:m-auto px-4 xl:p-0 w-full max-w-[1170px]">
         <Link href="/">
           <Image src={rhizaLogo} alt="Rhiza Bank Logo" width={130} />
         </Link>
