@@ -1,12 +1,21 @@
+"use client"
+
 import rhizaLogo from "@/assets/rhiza-bank-logo.svg"
 import Image from "next/image"
 import { MenuItem } from "./menu-item"
 import Link from "next/link"
 
 export function Header() {
+  const handleScroll = (anchorId: string) => {
+    const anchorElement = document.getElementById(anchorId)
+    if (anchorElement) {
+      anchorElement.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
-    <header className="top-0 z-50 sticky flex items-center bg-rhiza-green-100 w-full h-20">
-      <h1 className="sr-only">
+    <header className="lg:top-0 z-50 lg:sticky flex items-center bg-rhiza-green-100 w-full h-20">
+      <h1 id="top" className="sr-only">
         Rhiza Bank - Um banco que redefine a economia compartilhada.
       </h1>
       <div className="flex justify-between lg:m-auto px-4 xl:p-0 w-full max-w-[1170px]">
@@ -20,7 +29,9 @@ export function Header() {
           className="lg:flex flex-1 items-center hidden ml-20"
         >
           <ul className="flex items-center gap-7">
-            <MenuItem label="Benefícios" to="#beneficios" />
+            <button onClick={() => handleScroll("beneficios")}>
+              Benefícios
+            </button>
             <MenuItem
               label="Clube de Descontos"
               to="https://clubecerto.com.br/hotsite/?utm_cc=acessodireto&ent=rhizaedutech"
