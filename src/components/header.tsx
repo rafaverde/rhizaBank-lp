@@ -69,7 +69,7 @@ export function Header() {
         <nav
           aria-label="Menu de Navegação"
           id="header_menu"
-          className={`${isOpen ? "translate-x-0" : "translate-x-full"} absolute left-0 top-20 w-full flex-1 items-center transition-transform duration-700 ease-in-out lg:relative lg:top-0 lg:ml-20 lg:flex lg:translate-x-0`}
+          className={`${isOpen ? "scale-x translate-x-0" : "translate-x-full scale-x-0"} absolute left-0 top-20 w-full flex-1 items-center transition-transform duration-700 ease-out lg:relative lg:top-0 lg:ml-20 lg:flex lg:translate-x-0`}
         >
           <ul className="z-0 flex flex-col items-center bg-rhiza-green-100 lg:flex-row lg:gap-7 lg:bg-transparent">
             <MenuItem
