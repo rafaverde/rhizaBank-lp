@@ -86,22 +86,32 @@ export function Header() {
               to="https://bit.ly/rhizabank"
               target="_blank"
             />
+            <MenuItem
+              label="Suporte"
+              to="https://bit.ly/rhizabanksuporte"
+              target="_blank"
+            />
           </ul>
         </nav>
 
-        <Link
-          href="https://onelink.to/tj6ef8"
-          target="_blank"
-          className="lg:hidden"
-        >
-          <button className="rounded-lg bg-rhiza-green-500 px-8 py-3 font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500">
-            Baixar App
-          </button>
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link
+            href="https://onelink.to/tj6ef8"
+            target="_blank"
+            className="lg:hidden"
+          >
+            <button className="rounded-lg bg-rhiza-green-500 px-3 py-3 text-xs font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500">
+              Baixar App
+            </button>
+          </Link>
 
-        <button onClick={handleClickMenu} className="text-slate-500 lg:hidden">
-          {isOpen ? <X size={30} /> : <Menu size={30} />}
-        </button>
+          <button
+            onClick={handleClickMenu}
+            className="text-slate-500 lg:hidden"
+          >
+            {isOpen ? <X size={30} /> : <Menu size={30} />}
+          </button>
+        </div>
 
         <Link
           href="https://rhiza.acessocontadigital.com.br/login"
