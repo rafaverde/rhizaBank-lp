@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="scroll-smooth">
-      <GoogleTagManager gtmId="G-T7RCMERCPL" />
+      <GoogleTagManager gtmId="GTM-KWXC54QN" />
 
       <body className={`${nunitoSans.className} antialiased`}>
         <Header />
