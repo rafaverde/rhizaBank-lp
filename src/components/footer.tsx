@@ -18,7 +18,7 @@ export function Footer() {
   return (
     <footer>
       <div>
-        <div className="m-auto grid grid-cols-3 gap-8 py-16 md:flex-row lg:max-w-[1170px] lg:justify-between">
+        <div className="m-auto grid gap-8 px-4 py-16 sm:grid-rows-3 md:flex-row lg:max-w-[1170px] lg:grid-cols-3 lg:grid-rows-none lg:justify-between">
           <div>
             <Image src={rhizaLogo} width={260} alt="" />
             <p className="mt-8 text-slate-500">
