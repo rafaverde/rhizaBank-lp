@@ -9,6 +9,7 @@ import rhizaLogo from "@/assets/rhiza-bank-logo.svg";
 
 import { MenuItem } from "./menu-item";
 import { FaBars, FaXmark } from "react-icons/fa6";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export function Header() {
   const router = useRouter();
@@ -100,7 +101,14 @@ export function Header() {
             target="_blank"
             className="lg:hidden"
           >
-            <button className="rounded-lg bg-rhiza-green-500 px-3 py-3 text-xs font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500">
+            <button
+              className="rounded-lg bg-rhiza-green-500 px-3 py-3 text-xs font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500"
+              onClick={() =>
+                sendGAEvent("event", "buttonClicked", {
+                  value: "Baixar App",
+                })
+              }
+            >
               Baixar App
             </button>
           </Link>
@@ -118,7 +126,14 @@ export function Header() {
           target="_blank"
           className="hidden lg:block"
         >
-          <button className="rounded-lg bg-rhiza-green-500 px-8 py-3 font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500 lg:flex">
+          <button
+            className="rounded-lg bg-rhiza-green-500 px-8 py-3 font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500 lg:flex"
+            onClick={() =>
+              sendGAEvent("event", "buttonClicked", {
+                value: "Acesse sua conta",
+              })
+            }
+          >
             Acesse sua conta
           </button>
         </Link>
