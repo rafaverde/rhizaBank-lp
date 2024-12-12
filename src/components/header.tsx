@@ -7,8 +7,8 @@ import { useEffect, useState } from "react";
 
 import rhizaLogo from "@/assets/rhiza-bank-logo.svg";
 
-import { List, X } from "@phosphor-icons/react";
 import { MenuItem } from "./menu-item";
+import { FaBars, FaXmark } from "react-icons/fa6";
 
 export function Header() {
   const router = useRouter();
@@ -109,7 +109,7 @@ export function Header() {
             onClick={handleClickMenu}
             className="text-slate-500 lg:hidden"
           >
-            {isOpen ? <X size={30} /> : <List size={30} />}
+            {isOpen ? <FaXmark size={30} /> : <FaBars size={30} />}
           </button>
         </div>
 

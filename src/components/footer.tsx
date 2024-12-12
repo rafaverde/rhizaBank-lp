@@ -6,13 +6,13 @@ import rhizaLogo from "@/assets/rhiza-bank-logo.svg";
 import macondoLogo from "@/assets/macondo-ass-sites-branca.svg";
 import Link from "next/link";
 import {
-  Envelope,
-  FacebookLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  WhatsappLogo,
-  YoutubeLogo,
-} from "@phosphor-icons/react";
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaRegEnvelope,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa6";
 
 export function Footer() {
   return (
@@ -37,7 +37,7 @@ export function Footer() {
                 href="https://www.instagram.com/rhizabankbr"
                 target="_blank"
               >
-                <InstagramLogo size={34} />
+                <FaInstagram size={34} />
               </Link>
 
               <Link
@@ -45,7 +45,7 @@ export function Footer() {
                 href="https://www.facebook.com/rhizabankbr"
                 target="_blank"
               >
-                <FacebookLogo size={34} />
+                <FaFacebook size={34} />
               </Link>
 
               <Link
@@ -53,7 +53,7 @@ export function Footer() {
                 href="http://www.linkedin.com/company/rhizabankbr"
                 target="_blank"
               >
-                <LinkedinLogo size={34} />
+                <FaLinkedin size={34} />
               </Link>
 
               <Link
@@ -61,7 +61,7 @@ export function Footer() {
                 href="https://youtube.com/@rhizabankbr"
                 target="_blank"
               >
-                <YoutubeLogo size={34} />
+                <FaYoutube size={34} />
               </Link>
             </div>
           </div>
@@ -76,7 +76,7 @@ export function Footer() {
               target="_blank"
               className="mt-5 flex items-center gap-2 hover:text-rhiza-green-500"
             >
-              <Envelope size={24} className="text-rhiza-green-500" />
+              <FaRegEnvelope size={24} className="text-rhiza-green-500" />
               atendimento@rhizabank.com.br
             </Link>
 
@@ -85,7 +85,7 @@ export function Footer() {
               target="_blank"
               className="mt-5 flex items-center gap-2 hover:text-rhiza-green-500"
             >
-              <WhatsappLogo size={24} className="text-rhiza-green-500" />
+              <FaWhatsapp size={24} className="text-rhiza-green-500" />
               Suporte WhatsApp
             </Link>
           </div>
