@@ -6,8 +6,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import rhizaLogo from "@/assets/rhiza-bank-logo.svg";
-import { Menu, X } from "lucide-react";
 
+import { List, X } from "@phosphor-icons/react";
 import { MenuItem } from "./menu-item";
 
 export function Header() {
@@ -109,7 +109,7 @@ export function Header() {
             onClick={handleClickMenu}
             className="text-slate-500 lg:hidden"
           >
-            {isOpen ? <X size={30} /> : <Menu size={30} />}
+            {isOpen ? <X size={30} /> : <List size={30} />}
           </button>
         </div>
 
