@@ -100,15 +100,13 @@ export function Header() {
             href="https://onelink.to/tj6ef8"
             target="_blank"
             className="lg:hidden"
+            onClick={() =>
+              sendGAEvent("event", "buttonClicked", {
+                value: "Baixar App",
+              })
+            }
           >
-            <button
-              className="rounded-lg bg-rhiza-green-500 px-3 py-3 text-xs font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500"
-              onClick={() =>
-                sendGAEvent("event", "buttonClicked", {
-                  value: "Baixar App",
-                })
-              }
-            >
+            <button className="rounded-lg bg-rhiza-green-500 px-3 py-3 text-xs font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500">
               Baixar App
             </button>
           </Link>
@@ -125,15 +123,13 @@ export function Header() {
           href="https://rhiza.acessocontadigital.com.br/login"
           target="_blank"
           className="hidden lg:block"
+          onClick={() =>
+            sendGAEvent("event", "buttonClicked", {
+              value: "Acesse sua conta",
+            })
+          }
         >
-          <button
-            className="rounded-lg bg-rhiza-green-500 px-8 py-3 font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500 lg:flex"
-            onClick={() =>
-              sendGAEvent("event", "buttonClicked", {
-                value: "Acesse sua conta",
-              })
-            }
-          >
+          <button className="rounded-lg bg-rhiza-green-500 px-8 py-3 font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500 lg:flex">
             Acesse sua conta
           </button>
         </Link>
