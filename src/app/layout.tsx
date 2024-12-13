@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Nunito_Sans } from "next/font/google";
 
 import { Header } from "@/components/header";
@@ -27,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="scroll-smooth">
       <GoogleTagManager gtmId="GTM-KWXC54QN" />
+      <GoogleAnalytics gaId="G-T7RCMERCPL" />
 
       <body className={`${nunitoSans.className} antialiased`}>
         <Header />
