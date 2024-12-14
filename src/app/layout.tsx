@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Nunito_Sans } from "next/font/google";
 
 import { Header } from "@/components/header";
@@ -17,6 +17,16 @@ export const metadata: Metadata = {
   title: "Rhiza Bank - Uma nova experiência financeira.",
   description:
     "Uma nova experiência financeira moderna e segura, um banco digital com economia compartilhada para todos.",
+  keywords: [
+    "Banco digital",
+    "Economia Compartilhada",
+    "Economia",
+    "Desconto em Conta de Energia",
+    "Clube de Descontos",
+  ],
+  authors: [
+    { name: "Macondo Propaganda", url: "https://www.macondopropaganda.com" },
+  ],
 };
 
 export default function RootLayout({
