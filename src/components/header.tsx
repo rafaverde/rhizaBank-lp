@@ -8,8 +8,8 @@ import { useEffect, useState } from "react";
 import rhizaLogo from "@/assets/rhiza-bank-logo.svg";
 
 import { MenuItem } from "./menu-item";
-import { FaBars, FaXmark } from "react-icons/fa6";
 import { sendGAEvent } from "@next/third-parties/google";
+import { PiList, PiX } from "react-icons/pi";
 
 export function Header() {
   const router = useRouter();
@@ -115,7 +115,7 @@ export function Header() {
             onClick={handleClickMenu}
             className="text-slate-500 lg:hidden"
           >
-            {isOpen ? <FaXmark size={30} /> : <FaBars size={30} />}
+            {isOpen ? <PiX size={30} /> : <PiList size={30} />}
           </button>
         </div>
 
