@@ -25,6 +25,23 @@ export function Footer() {
               CNPJ 55.899.477/0001-42 Rua Cosme Ferreira Marques, 169 - 1º andar
               59200-000 - Centro - Santa Cruz/RN
             </p>
+
+            <span className="mt-6 block text-sm text-slate-400">
+              Leia sobre nossas políticas de{" "}
+              <Link
+                href="/cookies-policies"
+                className="text-rhiza-green-500 underline hover:text-rhiza-green-900"
+              >
+                Cookies
+              </Link>{" "}
+              &{" "}
+              <Link
+                href="/privacy-policies"
+                className="text-rhiza-green-500 underline hover:text-rhiza-green-900"
+              >
+                Privacidade
+              </Link>
+            </span>
           </div>
 
           <div>
