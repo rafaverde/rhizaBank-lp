@@ -14,7 +14,10 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Rhiza Bank - Uma nova experiência financeira.",
+  title: {
+    template: "%s | Rhiza Bank - Uma nova experiência financeira.",
+    default: "Rhiza Bank - Uma nova experiência financeira.",
+  },
   description:
     "Uma nova experiência financeira moderna e segura, um banco digital com economia compartilhada para todos.",
   keywords: [
