@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Política de Cookies",
@@ -29,11 +30,16 @@ export default function CookiesPolicies() {
         <p className="text-slate-500">
           No <strong>Rhiza Bank</strong>, utilizamos cookies para melhorar a
           experiência do usuário em nosso site{" "}
-          <a href="https://rhizabank.com.br">rhizabank.com.br</a>, personalizar
-          conteúdo e anúncios, fornecer recursos de mídia social e analisar
-          nosso tráfego. As informações coletadas por meio dos cookies podem
-          incluir dados como seu endereço IP, tipo de navegador, tempo de visita
-          e páginas visitadas.
+          <Link
+            className="cursor-pointer text-rhiza-green-500 underline hover:text-rhiza-green-900"
+            href="https://rhizabank.com.br"
+          >
+            rhizabank.com.br
+          </Link>
+          , personalizar conteúdo e anúncios, fornecer recursos de mídia social
+          e analisar nosso tráfego. As informações coletadas por meio dos
+          cookies podem incluir dados como seu endereço IP, tipo de navegador,
+          tempo de visita e páginas visitadas.
         </p>
 
         <h3 className="mt-6 text-xl font-extrabold text-rhiza-blue-500">
@@ -78,9 +84,16 @@ export default function CookiesPolicies() {
         </h3>
         <p className="text-slate-500">
           Você pode controlar e/ou excluir cookies como desejar - para detalhes,
-          consulte <a href="https://aboutcookies.org">aboutcookies.org</a>. Você
-          pode excluir todos os cookies que já estão no seu computador e pode
-          configurar a maioria dos navegadores para impedir que eles sejam
+          consulte{" "}
+          <Link
+            className="cursor-pointer text-rhiza-green-500 underline hover:text-rhiza-green-900"
+            href="https://aboutcookies.org"
+            target="_blank"
+          >
+            aboutcookies.org
+          </Link>
+          . Você pode excluir todos os cookies que já estão no seu computador e
+          pode configurar a maioria dos navegadores para impedir que eles sejam
           colocados. No entanto, se você fizer isso, talvez tenha que ajustar
           manualmente algumas preferências sempre que visitar um site e alguns
           serviços e funcionalidades poderão não funcionar.
@@ -101,9 +114,12 @@ export default function CookiesPolicies() {
           </li>
           <li>
             <strong>E-mail</strong>:{" "}
-            <a href="mailto:atendimento@rhizabank.com.br">
+            <Link
+              className="cursor-pointer text-rhiza-green-500 underline hover:text-rhiza-green-900"
+              href="mailto:atendimento@rhizabank.com.br"
+            >
               atendimento@rhizabank.com.br
-            </a>
+            </Link>
           </li>
         </ul>
 
