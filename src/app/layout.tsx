@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 
-import { GoogleTagManager } from "@next/third-parties/google";
+// import { GoogleTagManager } from "@next/third-parties/google";
 import { Nunito_Sans } from "next/font/google";
 
 import { Header } from "@/components/header";
 import "./globals.css";
 import { Footer } from "@/components/footer";
+import { ConsentBanner } from "@/components/consent-banner";
 
 const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
@@ -39,12 +40,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="scroll-smooth">
-      <GoogleTagManager gtmId="GTM-KWXC54QN" />
+      {/* <GoogleTagManager gtmId="GTM-KWXC54QN" /> */}
 
       <body className={`${nunitoSans.className} antialiased`}>
         <Header />
         {children}
         <Footer />
+        <ConsentBanner />
       </body>
     </html>
   );
