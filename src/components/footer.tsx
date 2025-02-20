@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 
 import rhizaLogo from "@/assets/rhiza-bank-logo.svg";
@@ -98,7 +96,7 @@ export function Footer() {
             </Link>
 
             <Link
-              href="https://bit.ly/rhizabanksuporte"
+              href="https://bit.ly/suporterhizabank"
               target="_blank"
               className="mt-5 flex items-center gap-2 hover:text-rhiza-green-500"
             >

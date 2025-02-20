@@ -89,7 +89,7 @@ export function Header() {
             />
             <MenuItem
               label="Suporte"
-              to="https://bit.ly/rhizabanksuporte"
+              to="https://bit.ly/suporterhizabank"
               target="_blank"
             />
           </ul>
