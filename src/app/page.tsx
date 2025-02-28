@@ -1,6 +1,7 @@
-import { AdvantagesSection } from "@/components/sections/advantages-section"
-import { BenefitsSection } from "@/components/sections/benefits-section"
-import { Hero } from "@/components/sections/hero"
+import { AdvantagesSection } from "@/components/sections/advantages-section";
+import { BenefitsSection } from "@/components/sections/benefits-section";
+import { FaqSection } from "@/components/sections/faq-section";
+import { Hero } from "@/components/sections/hero";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <BenefitsSection />
       <AdvantagesSection />
+      <FaqSection />
     </main>
-  )
+  );
 }

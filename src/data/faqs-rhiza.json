@@ -1,0 +1,72 @@
+{
+  "faqs": [
+    {
+      "ask": "Como ter uma conta no Rhiza Bank?",
+      "answer": "Existem 3 formas de ter sua conta no Rhiza Bank: \n1) Ser um Investidor Raiz. \n2) Ser um assinante Raiz, clique e saiba como. \n3) Ser indicado por um Membro Fundador."
+    },
+    {
+      "ask": "O que é um investidor Raiz?",
+      "answer": "O Rhiza Bank é uma Startup do grupo Rhiza focada em economia compartilhada. Nós criamos modelos de negócios e tecnologia que ajudam nossos clientes, assinantes e/ou correntistas a terem uma vida financeira mais saudável através de estratégias econômicas e parcerias com outras empresas e startups a fim de proporcionar benefícios, renda extra e uma melhor qualidade de vida. \nPara isso, criamos um modelo de tickets de participação nos lucros no formato de crowdfunding, onde as pessoas que acreditam no nosso projeto adquirem seus tickets de participação nos lucros. Para saber mais, clique aqui e contacte o nosso suporte."
+    },
+    {
+      "ask": "Quais documentos são necessários para abrir uma conta no Rhiza Bank?",
+      "answer": "Após conseguir o código de indicação de uma das formas citadas no item 01, você precisará de: \n- Documento de identidade (RG, CNH ou passaporte); \n- CPF; \n- Comprovante de residência recente. \n- Fazer uma Selfie para comprovar a autenticidade dos documentos enviados."
+    },
+    {
+      "ask": "Não consigo abrir minha conta, mesmo tendo recebido o código de indicação.",
+      "answer": "Alguns motivos podem estar dificultando a abertura de sua conta conosco, caso o problema seja no envio de documentos e registro da Selfie, seguem algumas dicas importantes: \n- Certifique-se de está mandando imagens legíveis da frente e do verso do seu documento; \n- Na hora de fazer a selfie tome alguns cuidados, como: Procurar ambientes bem iluminados, não capturar outras pessoas ou até mesmo quadro com imagem de pessoas em sua selfie, retirar óculos, boné ou qualquer acessório que dificulte a I.A. de reconhecer sua imagem em relação a imagem do seu documento e evitar tirar selfies sem camisa."
+    },
+    {
+      "ask": "É seguro usar um banco digital?",
+      "answer": "Sim, os bancos digitais utilizam tecnologias avançadas de criptografia e segurança, como autenticação de dois fatores e biometria, para proteger seus dados e transações."
+    },
+    {
+      "ask": "Qual o código do Rhiza Bank no Banco Central?",
+      "answer": "O Rhiza Bank é uma solução BAAS (Bank as a Service) com plataforma Whitelabel do Banco Acesso Soluções de Pagamentos S.A com código 332 no BACEN."
+    },
+    {
+      "ask": "Quais serviços o Rhiza Bank oferece para Pessoa Física?",
+      "answer": "Conta corrente; Transferências via TED, PIX OU P2P (Transações entre contas Rhiza Bank); recarga de crédito para celular e pagamentos; Cartão de débito virtual; Club de benefícios com descontos em farmácias, restaurantes, cinemas e mais de 600 mil itens distribuidos em mais de 30 mil estabelecimentos por todo brasil; desconto de 5% a 30% na conta de energia através das nossas usinas parceiras. \nClique em saiba mais e fale com nosso time especialista para garantir o seu desconto na conta de luz."
+    },
+    {
+      "ask": "Quais serviços o Rhiza Bank oferece para Pessoa Jurídica?",
+      "answer": "Conta corrente; Geração de boletos para cobrança de produto ou serviço; folha de pagamento; Transferências via TED, PIX OU P2P (Transações entre contas Rhiza Bank); recarga de crédito para celular e pagamentos; Cartão de débito virtual; Club de benefícios com descontos em farmácias, restaurantes, cinemas e mais de 600 mil itens distribuídos em mais de 30 mil estabelecimentos por todo brasil; desconto de 5% a 30% na conta de energia através das nossas usinas parceiras. \nClique em saiba mais e fale com nosso time especialista para garantir o seu desconto na conta de luz."
+    },
+    {
+      "ask": "O Rhiza Bank oferece crédito?",
+      "answer": "Não, nesse primeiro momento, nosso banco é apenas para conta em débito. Já que nossa premissa é educacional focada no próprio controle financeiro."
+    },
+    {
+      "ask": "Como faço para depositar dinheiro na minha conta digital?",
+      "answer": "Você pode depositar dinheiro por meio de transferências bancárias via TED ou PIX, depósitos em lotéricas ou correspondentes autorizados, dependendo do banco."
+    },
+    {
+      "ask": "Existem taxas para usar um banco digital?",
+      "answer": "A abertura da sua conta é gratuita e alguns serviços são isentos de taxas. A cesta de produtos variam de acordo com o seu objetivo em nosso banco e da natureza da sua conta, se Física ou Jurídica."
+    },
+    {
+      "ask": "O Rhiza Bank oferece suporte ao cliente?",
+      "answer": "Sim, o suporte ao cliente está disponível em nosso site, clicando na aba “suporte” via whatsaap ou através do nosso e-mail."
+    },
+    {
+      "ask": "O banco digital tem programa de pontos ou cashback?",
+      "answer": "Não, porém nosso banco oferece uma alternativa que é o nosso clube de vantagens, porque melhor do que receber uma parte do dinheiro gasto é não gasta-lo desde o início. Clique aqui e conheça nosso clube de vantagens."
+    },
+    {
+      "ask": "O banco oferece mais algum tipo de vantagem?",
+      "answer": "Nosso banco também oferece descontos na sua conta de energia, que pode variar de acordo com o estado em que o cliente se encontra. Para mais informação clique aqui e entre em contato com o suporte."
+    },
+    {
+      "ask": "Como faço para encerrar minha conta?",
+      "answer": "Entre em contato com o suporte pelo aplicativo ou site e solicite o encerramento da conta. Certifique-se de que não há saldo ou pendências antes de finalizar o processo."
+    },
+    {
+      "ask": "O que acontece se eu esquecer minha senha?",
+      "answer": "No aplicativo, clique em 'Esqueci minha senha' e siga as instruções para redefini-la. Você receberá um código de verificação por e-mail ou SMS para confirmar sua identidade. Se mesmo assim você continuar com dificuldades para acessar a sua conta, basta entrar em contato com o suporte em nosso site."
+    },
+    {
+      "ask": "Qual a política do banco para transações em casas de apostas?",
+      "answer": "O Rhiza Bank não tem interesse comercial com clientes que utilizam sua conta para transacionar valores em casas de apostas (bets). Com a regulamentação, transações para casas casas de apostas podem passar por análises diretas do banco liquidante que representamos antes de aprovadas, mesmo que sejam devidamente reguladas. \nÉ importante lembrar que a decisão para encerramento da conta por desinteresse comercial parte direto do Banco liquidante junto ao BACEN."
+    }
+  ]
+}

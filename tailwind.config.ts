@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 export default {
   content: [
@@ -23,7 +23,21 @@ export default {
       minHeight: {
         "screen-content": "calc(100vh - 160px)",
       },
+      keyframes: {
+        slideDown: {
+          from: { height: "0px" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        slideUp: {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0px" },
+        },
+      },
+      animation: {
+        slideDown: "slideDown 300ms ease-out",
+        slideUp: "slideUp 300ms ease-out",
+      },
     },
   },
   plugins: [],
-} satisfies Config
+} satisfies Config;
