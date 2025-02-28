@@ -92,6 +92,10 @@ export function Header() {
               to="https://bit.ly/suporterhizabank"
               target="_blank"
             />
+            <MenuItem
+              label="FAQs"
+              onClick={() => handleScroll("faqs")}
+            ></MenuItem>
           </ul>
         </nav>
 
