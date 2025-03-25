@@ -84,12 +84,12 @@ export function Header() {
             />
             <MenuItem
               label="Reduza sua conta de energia"
-              to="https://bit.ly/rhizabank"
+              to="https://api.whatsapp.com/send/?phone=5584999357157&text=Ol%C3%A1%21+Gostaria+de+saber+sobre+as+vantages+e+economia+que+o+cliente+Rhiza+Bank+pode+ter+na+conta+de+energia%21.&type=phone_number&app_absent=0"
               target="_blank"
             />
             <MenuItem
               label="Suporte"
-              to="https://bit.ly/suporterhizabank"
+              to="https://api.whatsapp.com/send/?phone=5584933001244&text=Ol%C3%A1%21+Estou+precisando+de+suporte%2C+pode+me+ajudar%3F&type=phone_number&app_absent=0"
               target="_blank"
             />
             <MenuItem
