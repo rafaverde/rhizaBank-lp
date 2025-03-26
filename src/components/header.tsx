@@ -10,6 +10,7 @@ import rhizaLogo from "@/assets/rhiza-bank-logo.svg";
 import { MenuItem } from "./menu-item";
 import { sendGAEvent } from "@next/third-parties/google";
 import { PiList, PiX } from "react-icons/pi";
+import { Button } from "./button";
 
 export function Header() {
   const router = useRouter();
@@ -110,9 +111,13 @@ export function Header() {
               })
             }
           >
-            <button className="rounded-lg bg-rhiza-green-500 px-3 py-3 text-xs font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500">
+            <Button
+              gtmEvent="cta_click"
+              gtmLabel="cta_baixar_app_menu"
+              className="rounded-lg bg-rhiza-green-500 px-3 py-3 text-xs font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500"
+            >
               Baixar App
-            </button>
+            </Button>
           </Link>
 
           <button
@@ -133,9 +138,13 @@ export function Header() {
             })
           }
         >
-          <button className="rounded-lg bg-rhiza-green-500 px-8 py-3 font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500 lg:flex">
+          <Button
+            gtmEvent="cta_click"
+            gtmLabel="cta_acesse_sua_conta_menu"
+            className="rounded-lg bg-rhiza-green-500 px-8 py-3 font-bold uppercase text-rhiza-green-100 transition-colors hover:bg-rhiza-blue-500 lg:flex"
+          >
             Acesse sua conta
-          </button>
+          </Button>
         </Link>
       </div>
     </header>

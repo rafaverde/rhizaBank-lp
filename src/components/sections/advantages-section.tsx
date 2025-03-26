@@ -1,6 +1,7 @@
 import advantagesImg from "@/assets/discount-club-image.svg";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "../button";
 
 export function AdvantagesSection() {
   return (
@@ -32,9 +33,13 @@ export function AdvantagesSection() {
                 href="https://api.whatsapp.com/send/?phone=5584999357157&text=Ol%C3%A1%21+Gostaria+de+saber+sobre+as+vantages+e+economia+que+o+cliente+Rhiza+Bank+pode+ter+na+conta+de+energia%21.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                <button className="rounded-lg border border-rhiza-green-300 bg-transparent px-8 py-3 font-bold uppercase text-rhiza-green-300 transition-colors hover:bg-rhiza-green-500 hover:text-rhiza-green-900 lg:flex">
-                  Reduzir conta
-                </button>
+                <Button
+                  gtmEvent="cta_click"
+                  gtmLabel="cta_reduzir_conta_energia"
+                  className="rounded-lg border border-rhiza-green-300 bg-transparent px-8 py-3 font-bold uppercase text-rhiza-green-300 transition-colors hover:bg-rhiza-green-500 hover:text-rhiza-green-900 lg:flex"
+                >
+                  Reduzir Conta
+                </Button>
               </Link>
             </div>
 
@@ -49,9 +54,13 @@ export function AdvantagesSection() {
                 href="https://clubecerto.com.br/hotsite/?utm_cc=acessodireto&ent=rhizaedutech"
                 target="_blank"
               >
-                <button className="rounded-lg border border-rhiza-green-300 bg-transparent px-8 py-3 font-bold uppercase text-rhiza-green-300 transition-colors hover:bg-rhiza-green-500 hover:text-rhiza-green-900 lg:flex">
+                <Button
+                  gtmEvent="cta_click"
+                  gtmLabel="cta_clube_descontos"
+                  className="rounded-lg border border-rhiza-green-300 bg-transparent px-8 py-3 font-bold uppercase text-rhiza-green-300 transition-colors hover:bg-rhiza-green-500 hover:text-rhiza-green-900 lg:flex"
+                >
                   Ganhar descontos
-                </button>
+                </Button>
               </Link>
             </div>
           </div>
