@@ -33,7 +33,7 @@ export function AdvantagesSection() {
                 target="_blank"
               >
                 <button className="rounded-lg border border-rhiza-green-300 bg-transparent px-8 py-3 font-bold uppercase text-rhiza-green-300 transition-colors hover:bg-rhiza-green-500 hover:text-rhiza-green-900 lg:flex">
-                  Saiba mais
+                  Reduzir conta
                 </button>
               </Link>
             </div>
@@ -50,7 +50,7 @@ export function AdvantagesSection() {
                 target="_blank"
               >
                 <button className="rounded-lg border border-rhiza-green-300 bg-transparent px-8 py-3 font-bold uppercase text-rhiza-green-300 transition-colors hover:bg-rhiza-green-500 hover:text-rhiza-green-900 lg:flex">
-                  Saiba mais
+                  Ganhar descontos
                 </button>
               </Link>
             </div>
