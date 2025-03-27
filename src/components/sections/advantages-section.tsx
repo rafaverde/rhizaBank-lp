@@ -29,10 +29,7 @@ export function AdvantagesSection() {
               <p className="mb-7 md:text-sm lg:text-base">
                 Descubra essa parceria que só vai te trazer benefícios.
               </p>
-              <Link
-                href="https://api.whatsapp.com/send/?phone=5584999357157&text=Ol%C3%A1%21+Gostaria+de+saber+sobre+as+vantages+e+economia+que+o+cliente+Rhiza+Bank+pode+ter+na+conta+de+energia%21.&type=phone_number&app_absent=0"
-                target="_blank"
-              >
+              <Link href="https://bit.ly/energiarhizabank" target="_blank">
                 <Button
                   gtmEvent="cta_click"
                   gtmLabel="cta_reduzir_conta_energia"

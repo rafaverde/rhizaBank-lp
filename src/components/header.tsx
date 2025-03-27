@@ -90,7 +90,7 @@ export function Header() {
             />
             <MenuItem
               label="Suporte"
-              to="https://api.whatsapp.com/send/?phone=5584933001244&text=Ol%C3%A1%21+Estou+precisando+de+suporte%2C+pode+me+ajudar%3F&type=phone_number&app_absent=0"
+              to="https://bit.ly/suporterhizabank"
               target="_blank"
             />
             <MenuItem
